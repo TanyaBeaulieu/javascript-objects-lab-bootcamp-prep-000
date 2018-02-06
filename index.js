@@ -8,6 +8,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object[key] = value
   return object
 }
+<<<<<<< HEAD
 
 function deleteFromObjectByKey(object, key) {
   var tempObj = Object.assign({}, object);
@@ -19,3 +20,5 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   delete object[key];
   return object;
 }
+=======
+>>>>>>> 63aa94a3b58a03a319e14807083c502c27965331
